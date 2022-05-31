@@ -30,10 +30,8 @@ case '-': answer = valueOne-valueTwo;
 break;
 case '^': answer = pow(valueOne,valueTwo);
 break;
-case ' ': answer = sqrt(valueTwo);
-break;
 default: 
- break;
+ answer=0;
 }
 cout<<"\n"<<valueOne<<operatorr<<valueTwo<<"="<<answer<<"\n\n";
 system("color a");
