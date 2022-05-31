@@ -13,7 +13,8 @@ int main(){
 	for(i=0;i<10;i++){
 		
 	
-	cout<<"\nEnter calculation:\n\n";	cin>>valueOne>>operatorr>>valueTwo;
+	cout<<"\nEnter calculation:\n\n";
+	cin>>valueOne>>operatorr>>valueTwo;
 	
 
 
